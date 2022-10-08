@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>研0加油</title>
+        <subtitle>不相信自己的人，没有努力的价值</subtitle>
+        <icon>https://battleforazeroth.github.io/images/favicon.ico</icon>
+        <link>https://battleforazeroth.github.io</link>
+        <author>
+          <name>小豆泥</name>
+        </author>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Thu, 24 Feb 2022 09:29:00 +0800</pubDate>
+        <lastBuildDate>Thu, 24 Feb 2022 09:29:00 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">https://battleforazeroth.github.io/%E6%9C%AC%E7%A7%91%E4%BD%9C%E4%B8%9A/%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86%EF%BC%88%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%EF%BC%89/</guid>
+            <title>磁盘管理（操作系统课程设计）</title>
+            <link>https://battleforazeroth.github.io/%E6%9C%AC%E7%A7%91%E4%BD%9C%E4%B8%9A/%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86%EF%BC%88%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%EF%BC%89/</link>
+            <category term="本科作业" scheme="https://battleforazeroth.github.io/categories/%E6%9C%AC%E7%A7%91%E4%BD%9C%E4%B8%9A/" />
+            <category term="磁盘管理（操作系统课程设计）" scheme="https://battleforazeroth.github.io/categories/%E6%9C%AC%E7%A7%91%E4%BD%9C%E4%B8%9A/%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86%EF%BC%88%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%EF%BC%89/" />
+            <category term="操作系统" scheme="https://battleforazeroth.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" />
+            <category term="C++" scheme="https://battleforazeroth.github.io/tags/C/" />
+            <category term="QT" scheme="https://battleforazeroth.github.io/tags/QT/" />
+            <pubDate>Thu, 24 Feb 2022 09:29:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;程序在 Linux 平台上编写， &lt;code&gt;Qt(C++)&lt;/code&gt;  实现可视化。题目很简单，本项目的特色在于可视化界面。&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;项目已经放在 github 上：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0JhdHRsZWZvckF6ZXJvdGgvRGlza01hbmFnZW1lbnQ=&#34;&gt;https://github.com/BattleforAzeroth/DiskManagement&lt;/span&gt;&lt;br /&gt;
+&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;磁盘管理&#34; style=&#34;--block-color:#9d5b8b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0JhdHRsZWZvckF6ZXJvdGgvRGlza01hbmFnZW1lbnQ=&#34; data-background-image=&#34;/images/404.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0JhdHRsZWZvckF6ZXJvdGgvRGlza01hbmFnZW1lbnQ=&#34;&gt;磁盘管理&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;github仓库&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h1 id=&#34;实验目的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实验目的&#34;&gt;#&lt;/a&gt; 实验目的&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;对磁盘调度的相关知识作进一步的了解，明确磁盘调度的原理。&lt;/li&gt;
+&lt;li&gt;加深理解磁盘调度的主要任务。&lt;/li&gt;
+&lt;li&gt;通过编程，掌握磁盘调度的主要算法。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;实验内容&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实验内容&#34;&gt;#&lt;/a&gt; 实验内容&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;对于如下给定的一组磁盘访问进行调度：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;请求服务到达&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;A&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;B&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;C&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;D&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;E&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;F&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;G&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;H&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;I&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;J&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;K&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;L&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;M&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;N&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;访问的磁道号&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;30&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;50&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;100&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;180&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;90&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;150&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;70&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;80&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;10&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;160&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;120&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;40&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;110&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;要求分别采用先来先服务、最短寻道优先以及电梯调度算法进行调度。&lt;/li&gt;
+&lt;li&gt;要求给出每种算法中磁盘访问的顺序，计算出平均移动道数。&lt;/li&gt;
+&lt;li&gt;假定当前读写头在 90 号，电梯调度算法向磁道号增加的方向移动。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;界面ui&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#界面ui&#34;&gt;#&lt;/a&gt; 界面 UI&lt;/h1&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/a1894b31e70d46fa90ab65f401bda281.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5bCP546E5aSx562W5LqG,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;数据说明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据说明&#34;&gt;#&lt;/a&gt; 数据说明&lt;/h1&gt;
+&lt;p&gt;通过 &lt;code&gt;data.txt&lt;/code&gt;  文件读入数据。&lt;br /&gt;
+第一行：磁头当前位置，磁头方向；&lt;br /&gt;
+第 2～n 行：请求服务名称，访问的磁道号。&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

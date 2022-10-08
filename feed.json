@@ -1,0 +1,24 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "研0加油",
+    "subtitle": "不相信自己的人，没有努力的价值",
+    "icon": "https://battleforazeroth.github.io/images/favicon.ico",
+    "description": "",
+    "home_page_url": "https://battleforazeroth.github.io",
+    "items": [
+        {
+            "id": "https://battleforazeroth.github.io/%E6%9C%AC%E7%A7%91%E4%BD%9C%E4%B8%9A/%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86%EF%BC%88%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%EF%BC%89/",
+            "url": "https://battleforazeroth.github.io/%E6%9C%AC%E7%A7%91%E4%BD%9C%E4%B8%9A/%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86%EF%BC%88%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%EF%BC%89/",
+            "title": "磁盘管理（操作系统课程设计）",
+            "date_published": "2022-02-24T01:29:00.000Z",
+            "content_html": "<h1 id=\"前言\"><a class=\"anchor\" href=\"#前言\">#</a> 前言</h1>\n<div class=\"note info\">\n<p>程序在 Linux 平台上编写， <code>Qt(C++)</code>  实现可视化。题目很简单，本项目的特色在于可视化界面。</p>\n</div>\n<p>项目已经放在 github 上：<span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL0JhdHRsZWZvckF6ZXJvdGgvRGlza01hbmFnZW1lbnQ=\">https://github.com/BattleforAzeroth/DiskManagement</span><br />\n<div class=\"links\"><div class=\"item\" title=\"磁盘管理\" style=\"--block-color:#9d5b8b;\"><span class=\"exturl image\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL0JhdHRsZWZvckF6ZXJvdGgvRGlza01hbmFnZW1lbnQ=\" data-background-image=\"/images/404.png\"></span>\n          <div class=\"info\">\n          <span class=\"exturl title\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL0JhdHRsZWZvckF6ZXJvdGgvRGlza01hbmFnZW1lbnQ=\">磁盘管理</span>\n          <p class=\"desc\">github仓库</p>\n          </div></div></div></p>\n<h1 id=\"实验目的\"><a class=\"anchor\" href=\"#实验目的\">#</a> 实验目的</h1>\n<ol>\n<li>对磁盘调度的相关知识作进一步的了解，明确磁盘调度的原理。</li>\n<li>加深理解磁盘调度的主要任务。</li>\n<li>通过编程，掌握磁盘调度的主要算法。</li>\n</ol>\n<h1 id=\"实验内容\"><a class=\"anchor\" href=\"#实验内容\">#</a> 实验内容</h1>\n<ol>\n<li>对于如下给定的一组磁盘访问进行调度：</li>\n</ol>\n<table>\n<thead>\n<tr>\n<th style=\"text-align:center\">请求服务到达</th>\n<th style=\"text-align:center\">A</th>\n<th style=\"text-align:center\">B</th>\n<th style=\"text-align:center\">C</th>\n<th style=\"text-align:center\">D</th>\n<th style=\"text-align:center\">E</th>\n<th style=\"text-align:center\">F</th>\n<th style=\"text-align:center\">G</th>\n<th style=\"text-align:center\">H</th>\n<th style=\"text-align:center\">I</th>\n<th style=\"text-align:center\">J</th>\n<th style=\"text-align:center\">K</th>\n<th style=\"text-align:center\">L</th>\n<th style=\"text-align:center\">M</th>\n<th style=\"text-align:center\">N</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align:center\">访问的磁道号</td>\n<td style=\"text-align:center\">30</td>\n<td style=\"text-align:center\">50</td>\n<td style=\"text-align:center\">100</td>\n<td style=\"text-align:center\">180</td>\n<td style=\"text-align:center\">20</td>\n<td style=\"text-align:center\">90</td>\n<td style=\"text-align:center\">150</td>\n<td style=\"text-align:center\">70</td>\n<td style=\"text-align:center\">80</td>\n<td style=\"text-align:center\">10</td>\n<td style=\"text-align:center\">160</td>\n<td style=\"text-align:center\">120</td>\n<td style=\"text-align:center\">40</td>\n<td style=\"text-align:center\">110</td>\n</tr>\n</tbody>\n</table>\n<ol start=\"2\">\n<li>要求分别采用先来先服务、最短寻道优先以及电梯调度算法进行调度。</li>\n<li>要求给出每种算法中磁盘访问的顺序，计算出平均移动道数。</li>\n<li>假定当前读写头在 90 号，电梯调度算法向磁道号增加的方向移动。</li>\n</ol>\n<h1 id=\"界面ui\"><a class=\"anchor\" href=\"#界面ui\">#</a> 界面 UI</h1>\n<p><img data-src=\"https://img-blog.csdnimg.cn/a1894b31e70d46fa90ab65f401bda281.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5bCP546E5aSx562W5LqG,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center\" alt=\"\" /></p>\n<h1 id=\"数据说明\"><a class=\"anchor\" href=\"#数据说明\">#</a> 数据说明</h1>\n<p>通过 <code>data.txt</code>  文件读入数据。<br />\n第一行：磁头当前位置，磁头方向；<br />\n第 2～n 行：请求服务名称，访问的磁道号。</p>\n",
+            "tags": [
+                "本科作业",
+                "磁盘管理（操作系统课程设计）",
+                "操作系统",
+                "C++",
+                "QT"
+            ]
+        }
+    ]
+}
