@@ -61,7 +61,7 @@
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly94aWFvbWlyb20uY29tL2Rvd25sb2FkLXhpYW9taS1mbGFzaC10b29sLW1pZmxhc2g=&#34;&gt;线刷工具&lt;/span&gt;&lt;br /&gt;
 推荐：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9taXVpdmVyLmNvbS9taWZsYXNoLXByb2JsZW0tbGlzdC8=&#34;&gt;小米线刷报错问题及解决方法&lt;/span&gt;&lt;/p&gt;
 &lt;h1 id=&#34;root&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#root&#34;&gt;#&lt;/a&gt; ROOT&lt;/h1&gt;
-&lt;p&gt;采用安装 Magisk 的方式获取 ROOT，参考&lt;a href=&#34;/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/Magisk%E5%AE%89%E8%A3%85/index.html&#34;&gt; Magisk 安装&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;采用安装 Magisk 的方式获取 ROOT，参考&lt;a href=&#34;/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/Magisk%E5%AE%89%E8%A3%85/&#34;&gt; Magisk 安装&lt;/a&gt;&lt;/p&gt;
 </content>
         <category term="刷机相关" scheme="https://battleforazeroth.github.io/categories/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/" />
         <category term="刷机" scheme="https://battleforazeroth.github.io/tags/%E5%88%B7%E6%9C%BA/" />
@@ -395,8 +395,8 @@ zh_CN.UTF-8 UTF-8&lt;br /&gt;
 </content>
         <category term="Linux" scheme="https://battleforazeroth.github.io/categories/Linux/" />
         <category term="Linux" scheme="https://battleforazeroth.github.io/tags/Linux/" />
-        <category term="双系统" scheme="https://battleforazeroth.github.io/tags/%E5%8F%8C%E7%B3%BB%E7%BB%9F/" />
         <category term="Arch Linux" scheme="https://battleforazeroth.github.io/tags/Arch-Linux/" />
+        <category term="双系统" scheme="https://battleforazeroth.github.io/tags/%E5%8F%8C%E7%B3%BB%E7%BB%9F/" />
         <updated>2023-03-24T13:31:20.000Z</updated>
     </entry>
     <entry>
@@ -973,8 +973,8 @@ d_{20}&amp;=F(x+0.5,y-1) \\
 </content>
         <category term="Linux" scheme="https://battleforazeroth.github.io/categories/Linux/" />
         <category term="Linux" scheme="https://battleforazeroth.github.io/tags/Linux/" />
-        <category term="Kubuntu" scheme="https://battleforazeroth.github.io/tags/Kubuntu/" />
         <category term="双系统" scheme="https://battleforazeroth.github.io/tags/%E5%8F%8C%E7%B3%BB%E7%BB%9F/" />
+        <category term="Kubuntu" scheme="https://battleforazeroth.github.io/tags/Kubuntu/" />
         <updated>2022-10-10T13:39:51.000Z</updated>
     </entry>
     <entry>
