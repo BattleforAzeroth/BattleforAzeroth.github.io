@@ -90,7 +90,7 @@
           &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0JhdHRsZWZvckF6ZXJvdGgvQUlDYW50ZWVu&#34;&gt;AI Cateen(基于YOLOv7的食堂菜品智能识别系统)&lt;/span&gt;
           &lt;p class=&#34;desc&#34;&gt;github仓库&lt;/p&gt;
           &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;assets/post/9.1.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;/assets/post/9.1.gif#pic_center&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装&#34;&gt;#&lt;/a&gt; 安装&lt;/h1&gt;
 &lt;p&gt;只需使用 Android Studio 打开此项目，项目中已经包含 NCNN 和 OpenCV 库&lt;/p&gt;
 &lt;h2 id=&#34;如果您需要更改库版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如果您需要更改库版本&#34;&gt;#&lt;/a&gt; 如果您需要更改库版本&lt;/h2&gt;
