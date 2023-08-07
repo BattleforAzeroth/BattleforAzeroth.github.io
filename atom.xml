@@ -846,7 +846,7 @@ d_{20}&amp;=F(x+0.5,y-1) \\
 &lt;ul&gt;
 &lt;li&gt;中点分割算法的思想：当对直线段不能简取也不能简弃时，则简单地把线段等分为二段，对两段重复前述测试处理，直到在给定误差范围内（如分割后的直线段长度小于 1 个像素时）每条线段完全在窗口内或完全在窗口外为止&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;https://battleforazeroth.github.io/%E6%9C%AC%E7%A7%91%E4%BD%9C%E4%B8%9A/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6%E4%B9%A0%E9%A2%98%E6%95%B4%E7%90%86/#%E4%B9%A0%E9%A2%98615&#34;&gt;Sutherland-Hodgman 多边形裁剪&lt;/a&gt;、&lt;a href=&#34;https://battleforazeroth.github.io/%E6%9C%AC%E7%A7%91%E4%BD%9C%E4%B8%9A/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6%E4%B9%A0%E9%A2%98%E6%95%B4%E7%90%86/#%E4%B9%A0%E9%A2%98616&#34;&gt;Weiler-Atherton 多边形裁剪&lt;/a&gt;参考对应习题&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/%E6%9C%AC%E7%A7%91%E4%BD%9C%E4%B8%9A/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6%E4%B9%A0%E9%A2%98%E6%95%B4%E7%90%86/#%E4%B9%A0%E9%A2%98615&#34;&gt;Sutherland-Hodgman 多边形裁剪&lt;/a&gt;、&lt;a href=&#34;/%E6%9C%AC%E7%A7%91%E4%BD%9C%E4%B8%9A/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6%E4%B9%A0%E9%A2%98%E6%95%B4%E7%90%86/#%E4%B9%A0%E9%A2%98616&#34;&gt;Weiler-Atherton 多边形裁剪&lt;/a&gt;参考对应习题&lt;/p&gt;
 </content>
         <category term="本科作业" scheme="https://battleforazeroth.github.io/categories/%E6%9C%AC%E7%A7%91%E4%BD%9C%E4%B8%9A/" />
         <category term="计算机图形学" scheme="https://battleforazeroth.github.io/categories/%E6%9C%AC%E7%A7%91%E4%BD%9C%E4%B8%9A/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/" />
