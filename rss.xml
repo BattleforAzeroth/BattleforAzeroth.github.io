@@ -10,8 +10,145 @@
         </author>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Sun, 08 Oct 2023 20:59:10 +0800</pubDate>
-        <lastBuildDate>Sun, 08 Oct 2023 20:59:10 +0800</lastBuildDate>
+        <pubDate>Mon, 09 Oct 2023 17:12:37 +0800</pubDate>
+        <lastBuildDate>Mon, 09 Oct 2023 17:12:37 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">https://battleforazeroth.github.io/Linux/Arch/Arch%20Linux%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</guid>
+            <title>Arch Linux双系统安装</title>
+            <link>https://battleforazeroth.github.io/Linux/Arch/Arch%20Linux%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</link>
+            <category term="Linux" scheme="https://battleforazeroth.github.io/categories/Linux/" />
+            <category term="Arch" scheme="https://battleforazeroth.github.io/categories/Linux/Arch/" />
+            <category term="Linux" scheme="https://battleforazeroth.github.io/tags/Linux/" />
+            <category term="Arch Linux" scheme="https://battleforazeroth.github.io/tags/Arch-Linux/" />
+            <category term="双系统" scheme="https://battleforazeroth.github.io/tags/%E5%8F%8C%E7%B3%BB%E7%BB%9F/" />
+            <pubDate>Mon, 09 Oct 2023 17:12:37 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;以下为本人在安装 Windows 系统后，安装 Arch 系统的记录&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;推荐以下 2 个安装教程，前者为 Arch Wiki。但由于 Arch Wiki 有些过于详细、繁琐、具备可选择性，反而有时因为漏看、没能理解或不了解如何选择而造成安装错误，本文旨在通过最简洁的步骤，不纠结地快速完成安装，更倾向于安装后再处理琐碎事务，也尽量少涉及原理，毕竟以下 2 个教程中已经讲得很详细了。&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Arch Wiki&#34; style=&#34;--block-color:#0f94d2;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly93aWtpLmFyY2hsaW51eC5vcmcvdGl0bGUvSW5zdGFsbGF0aW9uX2d1aWRl&#34; data-background-image=&#34;https://cdn.jsdelivr.net/gh/BattleforAzeroth/ImageHosting/icon/Archlinux.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly93aWtpLmFyY2hsaW51eC5vcmcvdGl0bGUvSW5zdGFsbGF0aW9uX2d1aWRl&#34;&gt;Arch Wiki&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;点击进入Arch Linux安装指南&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;item&#34; title=&#34;Arch Linux简明指南&#34; style=&#34;--block-color:#ea606e;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9hcmNoLmljZWt5bGluLm9ubGluZS9ndWlkZS9yb29raWUvYmFzaWMtaW5zdGFsbC5odG1s&#34; data-background-image=&#34;/images/404.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9hcmNoLmljZWt5bGluLm9ubGluZS9ndWlkZS9yb29raWUvYmFzaWMtaW5zdGFsbC5odG1s&#34;&gt;Arch Linux简明指南&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;点击进入Arch Linux安装指南&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h1 id=&#34;安装准备&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装准备&#34;&gt;#&lt;/a&gt; 安装准备&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;建议准备 U 盘，下载镜像并制作启动盘，制作步骤&lt;a href=&#34;/Linux/Kubuntu%2022.04%E5%AE%89%E8%A3%85/#%E5%87%86%E5%A4%87%E5%A5%BD%E5%90%AF%E5%8A%A8U%E7%9B%98&#34;&gt;参考&lt;/a&gt;&lt;br /&gt;
+ &lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Arch Downloads&#34; style=&#34;--block-color:#0f94d2;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9hcmNobGludXgub3JnL2Rvd25sb2FkLw==&#34; data-background-image=&#34;https://cdn.jsdelivr.net/gh/BattleforAzeroth/ImageHosting/icon/Archlinux.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9hcmNobGludXgub3JnL2Rvd25sb2FkLw==&#34;&gt;Arch Downloads&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;点击进入Arch Linux下载界面&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;准备好网络，建议使用网线或手机 USB 共享网络&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装&#34;&gt;#&lt;/a&gt; 安装&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;连接网络后，同步系统时间&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;timedatectl&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;使用 &lt;code&gt;cfdisk&lt;/code&gt;  分区&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;cfdisk&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;分区示例：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;挂载点&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;分区&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;分区类型&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;大小&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;/mnt/boot&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;/dev/sda5&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;EFI 系统分区&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1G&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;[SWAP]&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;/dev/sda6&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Linux swap (交换空间)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;16G（依内存而定）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;/mnt&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;/dev/sda7&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Linux x86-64 根目录 (/)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;剩余空间&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;格式化分区（以下参数替换为上一步中的挂载点）&lt;br /&gt;
+格式化根分区：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;mkfs.ext4 /dev/sda5（根分区）&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;格式化交换分区（如有）：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;mkswap&lt;/span&gt; /dev/sda6（交换空间分区）&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;格式化系统分区：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;mkfs.fat &lt;span class=&#34;token parameter variable&#34;&gt;-F&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;32&lt;/span&gt; /dev/sda7（EFI 系统分区）&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;挂载分区&lt;br /&gt;
+挂载根分区：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;mount&lt;/span&gt; /dev/sda5（根分区） /mnt&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;挂载 EFI 系统分区：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;mount&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;--mkdir&lt;/span&gt; /dev/sda7（EFI系统分区） /mnt/boot&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;启用交换分区（如有）：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;swapon&lt;/span&gt; /dev/sda5（交换空间分区）&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;安装软件包&lt;br /&gt;
+ intel 芯片选择 &lt;code&gt;intel-ucode&lt;/code&gt; ，AMD 芯片选择 &lt;code&gt;amd-ucode&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pacstrap &lt;span class=&#34;token parameter variable&#34;&gt;-K&lt;/span&gt; /mnt base linux linux-firmware intel-ucode base-devel networkmanager &lt;span class=&#34;token function&#34;&gt;vim&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;zsh&lt;/span&gt; zsh-completions&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;生成 fstab 文件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;genfstab &lt;span class=&#34;token parameter variable&#34;&gt;-U&lt;/span&gt; /mnt &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; /mnt/etc/fstab&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;chroot 到新安装的系统&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;arch-chroot /mnt&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;设置时区&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ln&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-sf&lt;/span&gt; /usr/share/zoneinfo/Asia/Shanghai /etc/localtime&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hwclock &lt;span class=&#34;token parameter variable&#34;&gt;--systohc&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;9&#34;&gt;
+&lt;li&gt;区域和本地化设置&lt;br /&gt;
+先设置为英文，在安装的过程中更容易判断和处理问题：&lt;br /&gt;
+编辑 &lt;code&gt;/etc/locale.gen&lt;/code&gt;  文件，取消美式英语和中国简体前的注释：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;vim&lt;/span&gt; /etc/locale.gen&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;div class=&#34;note primary no-icon&#34;&gt;
+&lt;p&gt;...&lt;br /&gt;
+#en_SG ISO-8859-1&lt;br /&gt;
+en_US.UTF-8 UTF-8&lt;br /&gt;
+#en_US ISO-8859-1&lt;br /&gt;
+...&lt;br /&gt;
+#zh_CN.GBK GBK&lt;br /&gt;
+zh_CN.UTF-8 UTF-8&lt;br /&gt;
+#zh_CN GB2312&lt;br /&gt;
+...&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;生成 &lt;code&gt;locale&lt;/code&gt; ：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;locale-gen&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;在 &lt;code&gt;/etc/locale.conf&lt;/code&gt;  中设定 &lt;code&gt;LANG&lt;/code&gt;  变量：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;LANG=en_US.UTF-8&#39;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; /etc/locale.conf&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;10&#34;&gt;
+&lt;li&gt;设置主机名&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;myhostname（主机名）&#39;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; /etc/hostname&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;11&#34;&gt;
+&lt;li&gt;设置 root 密码&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;passwd&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;12&#34;&gt;
+&lt;li&gt;安装引导程序&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pacman &lt;span class=&#34;token parameter variable&#34;&gt;-S&lt;/span&gt; grub efibootmgr os-prober&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;os-prober&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;grub-install &lt;span class=&#34;token parameter variable&#34;&gt;--target&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;x86_64-efi --efi-directory&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;/mnt/boot --bootloader-id&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;GRUB&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;使用 vim 编辑 &lt;code&gt;/etc/default/grub&lt;/code&gt;  文件：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;vim&lt;/span&gt; /etc/default/grub&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;去掉 &lt;code&gt;GRUB_DISABLE_OS_PROBER=false&lt;/code&gt;  前的注释或添加该语句&lt;/p&gt;
+&lt;p&gt;生成配置文件：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;grub-mkconfig&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-o&lt;/span&gt; /boot/grub/grub.cfg&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;13&#34;&gt;
+&lt;li&gt;完成安装&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;exit&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;umount&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-R&lt;/span&gt; /mnt&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;reboot&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://battleforazeroth.github.io/%E7%A0%94%E7%A9%B6%E7%94%9F%E4%BD%9C%E4%B8%9A/%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95%E4%B9%A0%E9%A2%98%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%AD%E5%9B%BDMOOC%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E5%BC%A0%E5%AE%8F%E4%BC%9F%EF%BC%89/</guid>
             <title>计算方法习题整理（中国MOOC大连理工大学张宏伟）</title>
@@ -599,10 +736,11 @@ z=\dfrac{s}{2}\sin\dfrac{t}{2}
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://battleforazeroth.github.io/Linux/Arch%20Linux%E6%96%B0%E7%B3%BB%E7%BB%9F%E5%BC%80%E8%8D%92/</guid>
+            <guid isPermalink="true">https://battleforazeroth.github.io/Linux/Arch/Arch%20Linux%E6%96%B0%E7%B3%BB%E7%BB%9F%E5%BC%80%E8%8D%92/</guid>
             <title>Arch Linux新系统开荒</title>
-            <link>https://battleforazeroth.github.io/Linux/Arch%20Linux%E6%96%B0%E7%B3%BB%E7%BB%9F%E5%BC%80%E8%8D%92/</link>
+            <link>https://battleforazeroth.github.io/Linux/Arch/Arch%20Linux%E6%96%B0%E7%B3%BB%E7%BB%9F%E5%BC%80%E8%8D%92/</link>
             <category term="Linux" scheme="https://battleforazeroth.github.io/categories/Linux/" />
+            <category term="Arch" scheme="https://battleforazeroth.github.io/categories/Linux/Arch/" />
             <category term="Linux" scheme="https://battleforazeroth.github.io/tags/Linux/" />
             <category term="Arch Linux" scheme="https://battleforazeroth.github.io/tags/Arch-Linux/" />
             <category term="双系统" scheme="https://battleforazeroth.github.io/tags/%E5%8F%8C%E7%B3%BB%E7%BB%9F/" />
@@ -692,7 +830,7 @@ zh_CN.UTF-8 UTF-8&lt;br /&gt;
  建议从 AUR 仓库安装，但如果 AUR 仓库未及时更新版本可考虑从官网安装（从 AUR 仓库链接中检查更新时间 Last Updated）&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;yay &lt;span class=&#34;token parameter variable&#34;&gt;-S&lt;/span&gt; jetbrains-toolbox&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;下载完成后打开此工具，下载所需软件，后续可以更新，需要使用多款 JetBrains 系列软件时非常方便！（经测试 &lt;code&gt;Android Studio&lt;/code&gt;  需要设置代理才能下载）&lt;/p&gt;
 &lt;h3 id=&#34;激活诀窍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#激活诀窍&#34;&gt;#&lt;/a&gt; 激活诀窍&lt;/h3&gt;
-&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;https://jetbra.in/s&#34; style=&#34;--block-color:#ea606e;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9qZXRicmEuaW4vcw==&#34; data-background-image=&#34;nullimages/404.png&#34;&gt;&lt;/span&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;https://jetbra.in/s&#34; style=&#34;--block-color:#ea606e;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9qZXRicmEuaW4vcw==&#34; data-background-image=&#34;/images/404.png&#34;&gt;&lt;/span&gt;
           &lt;div class=&#34;info&#34;&gt;
           &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9qZXRicmEuaW4vcw==&#34;&gt;https://jetbra.in/s&lt;/span&gt;
           &lt;p class=&#34;desc&#34;&gt;点击进入网页下载jetbra.zip&lt;/p&gt;
