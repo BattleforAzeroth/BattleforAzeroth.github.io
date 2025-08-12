@@ -1,11 +1,19 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "研一加油",
-    "subtitle": "早日毕业身心健康少点团建",
+    "title": "学习树",
+    "subtitle": "知识像树一样生长",
     "icon": "https://battleforazeroth.github.io/images/favicon.ico",
     "description": "",
     "home_page_url": "https://battleforazeroth.github.io",
     "items": [
+        {
+            "id": "https://battleforazeroth.github.io/about/",
+            "url": "https://battleforazeroth.github.io/about/",
+            "title": "about",
+            "date_published": "2025-03-31T13:32:27.995Z",
+            "content_html": "<p>本人研一菜鸡，博客作为记录，避免自身遗忘，也希望能方便他人</p>\n<p>博客架构查看底栏 Hexo，主题查看底栏 Shoka<br />\n 另外，博客留言系统还未完成，目前不可以评论</p>\n",
+            "tags": []
+        },
         {
             "id": "https://battleforazeroth.github.io/Linux/Arch/Arch%20Linux%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/",
             "url": "https://battleforazeroth.github.io/Linux/Arch/Arch%20Linux%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/",
@@ -16,8 +24,8 @@
                 "Linux",
                 "Arch",
                 "Linux",
-                "Arch Linux",
-                "双系统"
+                "双系统",
+                "Arch Linux"
             ]
         },
         {
@@ -45,22 +53,22 @@
             ]
         },
         {
-            "id": "https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/Magisk%E5%AE%89%E8%A3%85/",
-            "url": "https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/Magisk%E5%AE%89%E8%A3%85/",
-            "title": "Magisk安装",
+            "id": "https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/%E8%A7%A3%E9%94%81%E3%80%81%E5%88%B7%E6%9C%BA%E3%80%81ROOT/",
+            "url": "https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/%E8%A7%A3%E9%94%81%E3%80%81%E5%88%B7%E6%9C%BA%E3%80%81ROOT/",
+            "title": "解锁、刷机、ROOT",
             "date_published": "2023-06-10T11:04:21.000Z",
-            "content_html": "<div class=\"note info\">\n<p>以下为本人安装 Magisk 的记录，手机型号为 <code>Redmi K60 pro</code> <br />\n 持续施工中...</p>\n</div>\n<h1 id=\"安装magisk\"><a class=\"anchor\" href=\"#安装magisk\">#</a> 安装 Magisk</h1>\n<p><div class=\"links\"><div class=\"item\" title=\"Magisk\" style=\"--block-color:#00b09d;\"><span class=\"exturl image\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL0JhdHRsZWZvckF6ZXJvdGgvQUlDYW50ZWVu\" data-background-image=\"https://cdn.jsdelivr.net/gh/BattleforAzeroth/ImageHosting/icons/Magisk.png\"></span>\n          <div class=\"info\">\n          <span class=\"exturl title\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL0JhdHRsZWZvckF6ZXJvdGgvQUlDYW50ZWVu\">Magisk</span>\n          <p class=\"desc\">官方Magisk github仓库</p>\n          </div></div></div><br />\n 前往<span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL3RvcGpvaG53dS9NYWdpc2svcmVsZWFzZXM=\"> Releases 页面</span>，下载 APK 安装包并安装</p>\n<h2 id=\"修补init_boot\"><a class=\"anchor\" href=\"#修补init_boot\">#</a> 修补 init_boot</h2>\n<h3 id=\"提取init_boot\"><a class=\"anchor\" href=\"#提取init_boot\">#</a> 提取 init_boot</h3>\n<p><code>init_boot.img</code>  线刷包中可以找到，而卡刷包需要从 <code>payload.bin</code>  中提取</p>\n<h3 id=\"修补init_boot-2\"><a class=\"anchor\" href=\"#修补init_boot-2\">#</a> 修补 init_boot</h3>\n<p>打开 Magisk，选择 Magisk 安装，点击选择并修补一个文件，选择 <code>init_boot.img</code>  文件，修补完成后直接刷入修补后的 init_boot<br />\n 在之前的网站上找到对应软件，点击下方的 <code>Copy to clipboard</code>  按钮，并看到 <code>Copied!</code>  提示<br />\n打开 IDE，粘贴激活码，呈绿色，此时可点击 <code>Activate</code>  激活</p>\n",
+            "content_html": "<div class=\"note info\">\n<p>以下为本人解 BL 锁、刷机、刷 ROOT 的记录，手机型号为 <code>Redmi K60 pro</code> <br />\n 持续施工中...</p>\n</div>\n<h1 id=\"解bl锁\"><a class=\"anchor\" href=\"#解bl锁\">#</a> 解 BL 锁</h1>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly93d3cubWl1aS5jb20vdW5sb2NrL2luZGV4Lmh0bWw=\">官方解锁</span><br />\n <div class=\"links\"><div class=\"item\" title=\"官方解锁\" style=\"--block-color:#f76600;\"><span class=\"exturl image\" data-url=\"aHR0cHM6Ly93d3cubWl1aS5jb20vdW5sb2NrL2luZGV4Lmh0bWw=\" data-background-image=\"https://cdn.jsdelivr.net/gh/BattleforAzeroth/ImageHosting/icons/MIUI.png\"></span>\n          <div class=\"info\">\n          <span class=\"exturl title\" data-url=\"aHR0cHM6Ly93d3cubWl1aS5jb20vdW5sb2NrL2luZGV4Lmh0bWw=\">官方解锁</span>\n          <p class=\"desc\">MIUI官方解锁工具</p>\n          </div></div></div></p>\n<p>在 <code>开发者选项</code> 中找到 <code>设备解锁状态</code> ，对于新机而言，需要绑定小米账号并等待 7 天</p>\n<p>#F76600</p>\n<h1 id=\"刷机\"><a class=\"anchor\" href=\"#刷机\">#</a> 刷机</h1>\n<p><div class=\"links\"><div class=\"item\" title=\"小米ROM\" style=\"--block-color:#f76600;\"><span class=\"exturl image\" data-url=\"aHR0cHM6Ly94aWFvbWlyb20uY29tLw==\" data-background-image=\"https://cdn.jsdelivr.net/gh/BattleforAzeroth/ImageHosting/icons/MIUI.png\"></span>\n          <div class=\"info\">\n          <span class=\"exturl title\" data-url=\"aHR0cHM6Ly94aWFvbWlyb20uY29tLw==\">小米ROM</span>\n          <p class=\"desc\">包含众多小米官方ROM</p>\n          </div></div></div></p>\n<h2 id=\"线刷\"><a class=\"anchor\" href=\"#线刷\">#</a> 线刷</h2>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly94aWFvbWlyb20uY29tL2Rvd25sb2FkLXhpYW9taS1mbGFzaC10b29sLW1pZmxhc2g=\">线刷工具</span><br />\n推荐：<span class=\"exturl\" data-url=\"aHR0cHM6Ly9taXVpdmVyLmNvbS9taWZsYXNoLXByb2JsZW0tbGlzdC8=\">小米线刷报错问题及解决方法</span></p>\n<h2 id=\"卡刷\"><a class=\"anchor\" href=\"#卡刷\">#</a> 卡刷</h2>\n<p>卡刷比线刷方便，一般选择下载 TWRP，注意要下载相同 Android 版本的 TWRP，然后到 fastboot 模式刷入</p>\n<h1 id=\"root\"><a class=\"anchor\" href=\"#root\">#</a> ROOT</h1>\n<p>采用安装 Magisk 的方式获取 ROOT，参考<a href=\"/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/Magisk%E5%AE%89%E8%A3%85/\"> Magisk 安装</a><br />\n TWRP➡️安装➡️切换到刷入 Image 模式，手动选择修补后的 img 文件➡️选择 Boot 分区刷入</p>\n",
             "tags": [
                 "刷机相关",
                 "刷机"
             ]
         },
         {
-            "id": "https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/%E8%A7%A3%E9%94%81%E3%80%81%E5%88%B7%E6%9C%BA%E3%80%81ROOT/",
-            "url": "https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/%E8%A7%A3%E9%94%81%E3%80%81%E5%88%B7%E6%9C%BA%E3%80%81ROOT/",
-            "title": "解锁、刷机、ROOT",
+            "id": "https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/Magisk%E5%AE%89%E8%A3%85/",
+            "url": "https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/Magisk%E5%AE%89%E8%A3%85/",
+            "title": "Magisk安装",
             "date_published": "2023-06-10T11:04:21.000Z",
-            "content_html": "<div class=\"note info\">\n<p>以下为本人解 BL 锁、刷机、刷 ROOT 的记录，手机型号为 <code>Redmi K60 pro</code> <br />\n 持续施工中...</p>\n</div>\n<h1 id=\"解bl锁\"><a class=\"anchor\" href=\"#解bl锁\">#</a> 解 BL 锁</h1>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly93d3cubWl1aS5jb20vdW5sb2NrL2luZGV4Lmh0bWw=\">官方解锁</span><br />\n <div class=\"links\"><div class=\"item\" title=\"官方解锁\" style=\"--block-color:#f76600;\"><span class=\"exturl image\" data-url=\"aHR0cHM6Ly93d3cubWl1aS5jb20vdW5sb2NrL2luZGV4Lmh0bWw=\" data-background-image=\"https://cdn.jsdelivr.net/gh/BattleforAzeroth/ImageHosting/icons/MIUI.png\"></span>\n          <div class=\"info\">\n          <span class=\"exturl title\" data-url=\"aHR0cHM6Ly93d3cubWl1aS5jb20vdW5sb2NrL2luZGV4Lmh0bWw=\">官方解锁</span>\n          <p class=\"desc\">MIUI官方解锁工具</p>\n          </div></div></div></p>\n<p>在 <code>开发者选项</code> 中找到 <code>设备解锁状态</code> ，对于新机而言，需要绑定小米账号并等待 7 天</p>\n<p>#F76600</p>\n<h1 id=\"刷机\"><a class=\"anchor\" href=\"#刷机\">#</a> 刷机</h1>\n<p><div class=\"links\"><div class=\"item\" title=\"小米ROM\" style=\"--block-color:#f76600;\"><span class=\"exturl image\" data-url=\"aHR0cHM6Ly94aWFvbWlyb20uY29tLw==\" data-background-image=\"https://cdn.jsdelivr.net/gh/BattleforAzeroth/ImageHosting/icons/MIUI.png\"></span>\n          <div class=\"info\">\n          <span class=\"exturl title\" data-url=\"aHR0cHM6Ly94aWFvbWlyb20uY29tLw==\">小米ROM</span>\n          <p class=\"desc\">包含众多小米官方ROM</p>\n          </div></div></div></p>\n<h2 id=\"线刷\"><a class=\"anchor\" href=\"#线刷\">#</a> 线刷</h2>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly94aWFvbWlyb20uY29tL2Rvd25sb2FkLXhpYW9taS1mbGFzaC10b29sLW1pZmxhc2g=\">线刷工具</span><br />\n推荐：<span class=\"exturl\" data-url=\"aHR0cHM6Ly9taXVpdmVyLmNvbS9taWZsYXNoLXByb2JsZW0tbGlzdC8=\">小米线刷报错问题及解决方法</span></p>\n<h1 id=\"root\"><a class=\"anchor\" href=\"#root\">#</a> ROOT</h1>\n<p>采用安装 Magisk 的方式获取 ROOT，参考<a href=\"/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/Magisk%E5%AE%89%E8%A3%85/\"> Magisk 安装</a></p>\n",
+            "content_html": "<div class=\"note info\">\n<p>以下为本人安装 Magisk 的记录，手机型号为 <code>Redmi K60 pro</code> <br />\n 持续施工中...</p>\n</div>\n<h1 id=\"安装magisk\"><a class=\"anchor\" href=\"#安装magisk\">#</a> 安装 Magisk</h1>\n<p><div class=\"links\"><div class=\"item\" title=\"Magisk\" style=\"--block-color:#00b09d;\"><span class=\"exturl image\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL3RvcGpvaG53dS9NYWdpc2s=\" data-background-image=\"https://cdn.jsdelivr.net/gh/BattleforAzeroth/ImageHosting/icons/Magisk.png\"></span>\n          <div class=\"info\">\n          <span class=\"exturl title\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL3RvcGpvaG53dS9NYWdpc2s=\">Magisk</span>\n          <p class=\"desc\">官方Magisk github仓库</p>\n          </div></div></div><br />\n 前往<span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL3RvcGpvaG53dS9NYWdpc2svcmVsZWFzZXM=\"> Releases 页面</span>，下载 APK 安装包并安装</p>\n<h2 id=\"修补init_boot\"><a class=\"anchor\" href=\"#修补init_boot\">#</a> 修补 init_boot</h2>\n<h3 id=\"提取init_boot\"><a class=\"anchor\" href=\"#提取init_boot\">#</a> 提取 init_boot</h3>\n<p><code>init_boot.img</code>  线刷包中可以找到，而卡刷包需要从 <code>payload.bin</code>  中提取（现在 Magisk 也可以自动使用 <code>payload.bin</code>  进行修补）</p>\n<h3 id=\"修补init_boot-2\"><a class=\"anchor\" href=\"#修补init_boot-2\">#</a> 修补 init_boot</h3>\n<p>打开 Magisk，选择 Magisk 安装，点击选择并修补一个文件，选择 <code>init_boot.img</code>  文件，修补完成后直接刷入修补后的 init_boot<br />\n 默认修补后文件位置在 <code>Downloads</code>  文件夹，使用 TWRP 刷入（线刷理论也可）</p>\n",
             "tags": [
                 "刷机相关",
                 "刷机"
@@ -103,8 +111,8 @@
                 "Linux",
                 "Arch",
                 "Linux",
-                "Arch Linux",
-                "双系统"
+                "双系统",
+                "Arch Linux"
             ]
         },
         {
@@ -120,14 +128,6 @@
             ]
         },
         {
-            "id": "https://battleforazeroth.github.io/about/",
-            "url": "https://battleforazeroth.github.io/about/",
-            "title": "about",
-            "date_published": "2022-10-11T07:22:59.735Z",
-            "content_html": "<p>本人研一菜鸡，博客作为记录，避免自身遗忘，也希望能方便他人</p>\n<p>博客架构查看底栏 Hexo，主题查看底栏 Shoka<br />\n 另外，博客留言系统还未完成，目前不可以评论</p>\n",
-            "tags": []
-        },
-        {
             "id": "https://battleforazeroth.github.io/Linux/Kubuntu%2022.04%E5%AE%89%E8%A3%85/",
             "url": "https://battleforazeroth.github.io/Linux/Kubuntu%2022.04%E5%AE%89%E8%A3%85/",
             "title": "Kubuntu 22.04安装",
@@ -136,8 +136,8 @@
             "tags": [
                 "Linux",
                 "Linux",
-                "双系统",
-                "Kubuntu"
+                "Kubuntu",
+                "双系统"
             ]
         },
         {
