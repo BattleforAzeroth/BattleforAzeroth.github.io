@@ -552,6 +552,32 @@ z=\dfrac{s}{2}\sin\dfrac{t}{2}
         <updated>2023-08-20T03:41:57.000Z</updated>
     </entry>
     <entry>
+        <id>https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/Magisk%E5%AE%89%E8%A3%85/</id>
+        <title>Magisk安装</title>
+        <link rel="alternate" href="https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/Magisk%E5%AE%89%E8%A3%85/"/>
+        <content type="html">&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;以下为本人安装 Magisk 的记录，手机型号为 &lt;code&gt;Redmi K60 pro&lt;/code&gt; &lt;br /&gt;
+ 持续施工中...&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;安装magisk&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装magisk&#34;&gt;#&lt;/a&gt; 安装 Magisk&lt;/h1&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Magisk&#34; style=&#34;--block-color:#00b09d;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3RvcGpvaG53dS9NYWdpc2s=&#34; data-background-image=&#34;https://cdn.jsdelivr.net/gh/BattleforAzeroth/ImageHosting/icons/Magisk.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3RvcGpvaG53dS9NYWdpc2s=&#34;&gt;Magisk&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;官方Magisk github仓库&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;
+ 前往&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3RvcGpvaG53dS9NYWdpc2svcmVsZWFzZXM=&#34;&gt; Releases 页面&lt;/span&gt;，下载 APK 安装包并安装&lt;/p&gt;
+&lt;h2 id=&#34;修补init_boot&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#修补init_boot&#34;&gt;#&lt;/a&gt; 修补 init_boot&lt;/h2&gt;
+&lt;h3 id=&#34;提取init_boot&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#提取init_boot&#34;&gt;#&lt;/a&gt; 提取 init_boot&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;init_boot.img&lt;/code&gt;  线刷包中可以找到，而卡刷包需要从 &lt;code&gt;payload.bin&lt;/code&gt;  中提取（现在 Magisk 也可以自动使用 &lt;code&gt;payload.bin&lt;/code&gt;  进行修补）&lt;/p&gt;
+&lt;h3 id=&#34;修补init_boot-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#修补init_boot-2&#34;&gt;#&lt;/a&gt; 修补 init_boot&lt;/h3&gt;
+&lt;p&gt;打开 Magisk，选择 Magisk 安装，点击选择并修补一个文件，选择 &lt;code&gt;init_boot.img&lt;/code&gt;  文件，修补完成后直接刷入修补后的 init_boot&lt;br /&gt;
+ 默认修补后文件位置在 &lt;code&gt;Downloads&lt;/code&gt;  文件夹，使用 TWRP 刷入（线刷理论也可）&lt;/p&gt;
+</content>
+        <category term="刷机相关" scheme="https://battleforazeroth.github.io/categories/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/" />
+        <category term="刷机" scheme="https://battleforazeroth.github.io/tags/%E5%88%B7%E6%9C%BA/" />
+        <updated>2023-06-10T11:04:21.000Z</updated>
+    </entry>
+    <entry>
         <id>https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/%E8%A7%A3%E9%94%81%E3%80%81%E5%88%B7%E6%9C%BA%E3%80%81ROOT/</id>
         <title>解锁、刷机、ROOT</title>
         <link rel="alternate" href="https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/%E8%A7%A3%E9%94%81%E3%80%81%E5%88%B7%E6%9C%BA%E3%80%81ROOT/"/>
@@ -582,32 +608,6 @@ z=\dfrac{s}{2}\sin\dfrac{t}{2}
 &lt;h1 id=&#34;root&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#root&#34;&gt;#&lt;/a&gt; ROOT&lt;/h1&gt;
 &lt;p&gt;采用安装 Magisk 的方式获取 ROOT，参考&lt;a href=&#34;/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/Magisk%E5%AE%89%E8%A3%85/&#34;&gt; Magisk 安装&lt;/a&gt;&lt;br /&gt;
  TWRP➡️安装➡️切换到刷入 Image 模式，手动选择修补后的 img 文件➡️选择 Boot 分区刷入&lt;/p&gt;
-</content>
-        <category term="刷机相关" scheme="https://battleforazeroth.github.io/categories/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/" />
-        <category term="刷机" scheme="https://battleforazeroth.github.io/tags/%E5%88%B7%E6%9C%BA/" />
-        <updated>2023-06-10T11:04:21.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/Magisk%E5%AE%89%E8%A3%85/</id>
-        <title>Magisk安装</title>
-        <link rel="alternate" href="https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/Magisk%E5%AE%89%E8%A3%85/"/>
-        <content type="html">&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;以下为本人安装 Magisk 的记录，手机型号为 &lt;code&gt;Redmi K60 pro&lt;/code&gt; &lt;br /&gt;
- 持续施工中...&lt;/p&gt;
-&lt;/div&gt;
-&lt;h1 id=&#34;安装magisk&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装magisk&#34;&gt;#&lt;/a&gt; 安装 Magisk&lt;/h1&gt;
-&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Magisk&#34; style=&#34;--block-color:#00b09d;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3RvcGpvaG53dS9NYWdpc2s=&#34; data-background-image=&#34;https://cdn.jsdelivr.net/gh/BattleforAzeroth/ImageHosting/icons/Magisk.png&#34;&gt;&lt;/span&gt;
-          &lt;div class=&#34;info&#34;&gt;
-          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3RvcGpvaG53dS9NYWdpc2s=&#34;&gt;Magisk&lt;/span&gt;
-          &lt;p class=&#34;desc&#34;&gt;官方Magisk github仓库&lt;/p&gt;
-          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;
- 前往&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3RvcGpvaG53dS9NYWdpc2svcmVsZWFzZXM=&#34;&gt; Releases 页面&lt;/span&gt;，下载 APK 安装包并安装&lt;/p&gt;
-&lt;h2 id=&#34;修补init_boot&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#修补init_boot&#34;&gt;#&lt;/a&gt; 修补 init_boot&lt;/h2&gt;
-&lt;h3 id=&#34;提取init_boot&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#提取init_boot&#34;&gt;#&lt;/a&gt; 提取 init_boot&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;init_boot.img&lt;/code&gt;  线刷包中可以找到，而卡刷包需要从 &lt;code&gt;payload.bin&lt;/code&gt;  中提取（现在 Magisk 也可以自动使用 &lt;code&gt;payload.bin&lt;/code&gt;  进行修补）&lt;/p&gt;
-&lt;h3 id=&#34;修补init_boot-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#修补init_boot-2&#34;&gt;#&lt;/a&gt; 修补 init_boot&lt;/h3&gt;
-&lt;p&gt;打开 Magisk，选择 Magisk 安装，点击选择并修补一个文件，选择 &lt;code&gt;init_boot.img&lt;/code&gt;  文件，修补完成后直接刷入修补后的 init_boot&lt;br /&gt;
- 默认修补后文件位置在 &lt;code&gt;Downloads&lt;/code&gt;  文件夹，使用 TWRP 刷入（线刷理论也可）&lt;/p&gt;
 </content>
         <category term="刷机相关" scheme="https://battleforazeroth.github.io/categories/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/" />
         <category term="刷机" scheme="https://battleforazeroth.github.io/tags/%E5%88%B7%E6%9C%BA/" />
