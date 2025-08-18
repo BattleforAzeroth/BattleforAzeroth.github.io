@@ -8,16 +8,129 @@
     <author>
       <name>倪雨婷</name>
     </author>
-    <updated>2025-03-31T13:32:27.995Z</updated>
+    <updated>2025-08-13T10:29:17.439Z</updated>
     <entry>
         <id>https://battleforazeroth.github.io/about/</id>
         <title>about</title>
         <link rel="alternate" href="https://battleforazeroth.github.io/about/"/>
-        <content type="html">&lt;p&gt;本人研一菜鸡，博客作为记录，避免自身遗忘，也希望能方便他人&lt;/p&gt;
-&lt;p&gt;博客架构查看底栏 Hexo，主题查看底栏 Shoka&lt;br /&gt;
- 另外，博客留言系统还未完成，目前不可以评论&lt;/p&gt;
+        <content type="html">&lt;h1 id=&#34;个人简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#个人简介&#34;&gt;#&lt;/a&gt; 个人简介&lt;/h1&gt;
+&lt;p&gt;我目前是大连理工大学软件学院的一名研二学生，就读于&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL29zY2FyLWxhYi5vcmcvY2huL2luZGV4Lmh0bQ==&#34;&gt;大连理工大学软件优化组&lt;/span&gt;，导师是&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly94aWFvY2hlbi1saS5naXRodWIuaW8vaW5kZXhfY2huLmh0bSNiaW9ncmFwaHk=&#34;&gt;李晓晨&lt;/span&gt;老师。研究方向：深度学习（包括图像、文本处理模型）、大语言模型预训练&lt;br /&gt;
+求职意向：26 届秋招，&lt;ins class=&#34;dot&#34;&gt;大语言模型（预训练）&lt;/ins&gt;/ 视觉大模型&lt;/p&gt;
+&lt;h1 id=&#34;教育背景&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#教育背景&#34;&gt;#&lt;/a&gt; 教育背景&lt;/h1&gt;
+&lt;div class=&#34;note default no-icon&#34;&gt;
+&lt;p&gt;2019~2023，本科就读于中国地质大学（武汉）计算机学院，智能科学与技术专业&lt;br /&gt;
+通过 CET-6，绩点：3.818/5.0，专业排名：5/67&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note default no-icon&#34;&gt;
+&lt;p&gt;2023~2026，研究生就读于大连理工大学软件学院，软件工程专业&lt;br /&gt;
+获一等硕士生奖助学金&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;专业技能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#专业技能&#34;&gt;#&lt;/a&gt; 专业技能&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;分类&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;编程语言&lt;/td&gt;
+&lt;td&gt;熟练使用 Python、C++、Java&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;基础技能&lt;/td&gt;
+&lt;td&gt;熟悉 Linux 系统（常用 Ubuntu、Arch、CentOS），Git/Gerrit 版本控制，LaTeX/Markdown 语法&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;开发能力&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;C++ 开发：MFC（电梯智能群控系统）、Qt（&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0JhdHRsZWZvckF6ZXJvdGgvRGlza01hbmFnZW1lbnQ=&#34;&gt;磁盘管理&lt;/span&gt;）、OpenCV（&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0JhdHRsZWZvckF6ZXJvdGgvQUlDYW50ZWVuL3RyZWUvbWFzdGVy&#34;&gt;AI Canteen&lt;/span&gt;）&lt;/li&gt;
+&lt;li&gt;Java 开发：Spring Boot+Bootstrap+MyBatis（学生作业批改系统）、Android（&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0JhdHRsZWZvckF6ZXJvdGgvQUlDYW50ZWVuL3RyZWUvbWFzdGVy&#34;&gt;AI Canteen&lt;/span&gt;）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;算法基础&lt;/td&gt;
+&lt;td&gt;数据结构，机器学习，深度学习，数学建模 (Python), 计算机视觉，自然语言处理，群体智能优化算法&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;深度学习框架&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;熟悉 PyTorch 框架，熟悉 NVIDIA Megatron / 阿里 Pai-Megatron-Paich 框架&lt;/li&gt;
+&lt;li&gt;了解 DeepSpeed、华为 MindSpore、腾讯 ncnn 框架&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;深度学习模型&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;熟悉 Transformer、BERT、GPT、Qwen 等模型尤其是 MoE 模型&lt;/li&gt;
+&lt;li&gt;熟悉目标检测模型（YOLO 系列、Faster R-CNN 等）&lt;/li&gt;
+&lt;li&gt;了解 ViT、Swin Transformer 等视觉模型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;实习经历&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实习经历&#34;&gt;#&lt;/a&gt; 实习经历&lt;/h1&gt;
+&lt;h1 id=&#34;项目经历&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#项目经历&#34;&gt;#&lt;/a&gt; 项目经历&lt;/h1&gt;
+&lt;h1 id=&#34;获奖经历&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#获奖经历&#34;&gt;#&lt;/a&gt; 获奖经历&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;分类&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;数学类&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;2020.12，获得全国大学生数学竞赛（非数学类）三等奖&lt;br /&gt;
+ 2023.12，获得中国研究生数学建模竞赛三等奖&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;荣誉类&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;2021.11，获得 “华为素质尖兵” 奖学金及教育部 - 华为智能基座 “未来之星” 称号&lt;br /&gt;
+ 2023.06，获得中国地质大学（武汉）优秀毕业生&lt;br /&gt;
+ 2024.11，获得一等硕士生奖助学金&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;其他&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;2022.05，“国家级大学生创新创业训练计划” 项目结题&lt;br /&gt;
+ 2023.11，获得辽宁省大学生智慧海洋科技创新大赛决赛优秀奖&lt;br /&gt;
+ 2025.03，提交发明专利：基于非自回归模型的 Verilog 行级代码补全方法&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;个人爱好&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#个人爱好&#34;&gt;#&lt;/a&gt; 个人爱好&lt;/h1&gt;
+&lt;p&gt;体育运动：慢跑、骑行、乒乓球&lt;br /&gt;
+游戏方面：对多种类型的游戏有所了解：MMORPG（魔兽世界）、MOBA（英雄联盟）、FPS（绝地求生、和平精英）、卡牌策略（炉石传说、三国杀）、开放世界（塞尔达传说：荒野之息、原神）、本地合作（胡闹厨房 2、双人成行、双影奇境）&lt;br /&gt;
+热爱开发有趣的项目、撰写博客，同时是 Android “发烧友”（刷机、Magisk），有坚定的开源理念，梦想成为自由代码人&lt;br /&gt;
+求职期间此页面作为个人简历使用，部分内容不够详细，会持续更新&lt;/p&gt;
 </content>
-        <updated>2025-03-31T13:32:27.995Z</updated>
+        <updated>2025-08-13T10:29:17.439Z</updated>
     </entry>
     <entry>
         <id>https://battleforazeroth.github.io/Linux/Arch/Arch%20Linux%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</id>
