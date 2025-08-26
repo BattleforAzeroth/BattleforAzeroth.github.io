@@ -8,24 +8,28 @@
     <author>
       <name>倪雨婷</name>
     </author>
-    <updated>2025-08-22T15:50:19.708Z</updated>
+    <updated>2025-08-26T03:30:00.526Z</updated>
     <entry>
         <id>https://battleforazeroth.github.io/about/</id>
         <title>about</title>
         <link rel="alternate" href="https://battleforazeroth.github.io/about/"/>
         <content type="html">&lt;h1 id=&#34;个人简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#个人简介&#34;&gt;#&lt;/a&gt; 个人简介&lt;/h1&gt;
-&lt;p&gt;我目前是大连理工大学软件学院将于 26 年 6 月毕业的研三学生，就读于&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL29zY2FyLWxhYi5vcmcvY2huL2luZGV4Lmh0bQ==&#34;&gt;大连理工大学软件优化组&lt;/span&gt;，导师是&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly94aWFvY2hlbi1saS5naXRodWIuaW8vaW5kZXhfY2huLmh0bSNiaW9ncmFwaHk=&#34;&gt;李晓晨&lt;/span&gt;老师。研究方向：深度学习（包括图像、文本处理模型）、大语言模型预训练&lt;br /&gt;
-求职意向：26 届秋招，&lt;ins class=&#34;dot&#34;&gt;大语言模型（预训练）&lt;/ins&gt;/ 视觉大模型 / 计算机视觉&lt;/p&gt;
+&lt;p&gt;我目前是大连理工大学软件学院将于 26 年 6 月毕业的研三学生，就读于&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL29zY2FyLWxhYi5vcmcvY2huL2luZGV4Lmh0bQ==&#34;&gt;大连理工大学软件优化组&lt;/span&gt;，导师是&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly94aWFvY2hlbi1saS5naXRodWIuaW8vaW5kZXhfY2huLmh0bSNiaW9ncmFwaHk=&#34;&gt;李晓晨&lt;/span&gt;老师。研究方向：深度学习（包括图像、文本处理模型）、大语言模型预训练&lt;/p&gt;
+&lt;p&gt;求职意向：26 届秋招，&lt;ins class=&#34;dot&#34;&gt;大语言模型（预训练）&lt;/ins&gt;/ 视觉大模型 / 计算机视觉&lt;/p&gt;
 &lt;h1 id=&#34;教育背景&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#教育背景&#34;&gt;#&lt;/a&gt; 教育背景&lt;/h1&gt;
 &lt;h2 id=&#34;本科&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#本科&#34;&gt;#&lt;/a&gt; 本科&lt;/h2&gt;
-&lt;p&gt;2019~2023，本科就读于中国地质大学（武汉）计算机学院，智能科学与技术专业&lt;br /&gt;
-研究方向：深度学习（目标检测）&lt;br /&gt;
+&lt;div class=&#34;note default no-icon&#34;&gt;
+&lt;p&gt;2019~2023，本科就读于中国地质大学（武汉）计算机学院，智能科学与技术专业&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;研究方向：深度学习（目标检测）&lt;br /&gt;
 课程：数据结构、操作系统、算法分析与设计、人工智能导论、机器学习、深度学习、计算机视觉、图像处理、自然语言处理、智能优化算法等&lt;br /&gt;
-通过 CET-6，绩点：3.818/5.0，专业排名：5/67，获得优秀毕业生&lt;/p&gt;
+绩点：3.818/5.0，专业排名：5/67，&lt;ins class=&#34;dot&#34;&gt;通过 CET-6，获得优秀毕业生&lt;/ins&gt;&lt;/p&gt;
 &lt;h2 id=&#34;硕士&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#硕士&#34;&gt;#&lt;/a&gt; 硕士&lt;/h2&gt;
-&lt;p&gt;2023~2026，研究生就读于大连理工大学软件学院，软件工程专业&lt;br /&gt;
-研究方向：深度学习（文本处理模型）、大语言模型预训练&lt;br /&gt;
-保研，获得一等硕士生奖助学金&lt;/p&gt;
+&lt;div class=&#34;note info no-icon&#34;&gt;
+&lt;p&gt;2023~2026，研究生就读于大连理工大学软件学院，软件工程专业&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;研究方向：深度学习（文本处理模型）、大语言模型预训练&lt;br /&gt;
+&lt;ins class=&#34;dot&#34;&gt;保研，获得一等硕士生奖助学金&lt;/ins&gt;&lt;/p&gt;
 &lt;h1 id=&#34;专业技能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#专业技能&#34;&gt;#&lt;/a&gt; 专业技能&lt;/h1&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -84,15 +88,22 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h1 id=&#34;实习经历&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实习经历&#34;&gt;#&lt;/a&gt; 实习经历&lt;/h1&gt;
+&lt;div class=&#34;note danger no-icon&#34;&gt;
+&lt;p&gt;中兴通讯算法部，大语言模型预训练；时间：2023.06 至今&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;参与中兴通讯大语言模型的预训练工作，工作内容和掌握技能如下：&lt;br /&gt;
+（1）调研大语言模型的最新研究进展，了解不同模型（如 GPT、BERT、Qwen、DeepSeek 等）。了解相关提速增效的改进方法：Dynamic MoE、MoE++、细粒度专家，Muon 优化器等，具备前沿技术融入框架的代码能力，会模型测评&lt;br /&gt;
+（2）熟悉 NVIDIA Megatron 和阿里 Pai-Megatron-Paich 框架、Transformer Engine 库，掌握多机多卡环境下的大语言模型训练和调优方法，了解并行策略、混合精度训练、梯度聚合等技术&lt;br /&gt;
+（3）熟练使用前沿的训练提速方法（GroupedGEMM、permute 算子、FlashAttention/FusedAttention），同时熟练使用 trace 分析瓶颈点&lt;/p&gt;
 &lt;h1 id=&#34;项目经历&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#项目经历&#34;&gt;#&lt;/a&gt; 项目经历&lt;/h1&gt;
 &lt;h2 id=&#34;基于非自回归模型的verilog行级代码补全&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基于非自回归模型的verilog行级代码补全&#34;&gt;#&lt;/a&gt; 基于非自回归模型的 Verilog 行级代码补全&lt;/h2&gt;
-&lt;div class=&#34;note default no-icon&#34;&gt;
+&lt;div class=&#34;note warning no-icon&#34;&gt;
 &lt;p&gt;角色：负责人，独自完成；时间：2023.01~2023.04&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;基于非自回归模型的 Verilog 行级代码补全方法，与传统的基于自回归模型的代码补全方法不同，使用了非自回归模型，解码阶段无需依赖之前的输出 token 能并行生成所有 token，具有更小的延迟，推理速度显著提升。此外，还采用了混合语法引导的采样策略，这是一种类似 Teacher Forcing 的方法，并且采样大小能根据模型的学习效果进行动态调整，即根据第一次解码的初步结果确定采样率，混合真实值第二次解码后再更新参数，采样按关键字：标识符：操作符 = 2:1:1，能使模型更好地学习其中的语法和语义信息，以提升代码补全的准确率。该项目于 2025 年 3 月提交了专利申请。&lt;br /&gt;
 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/BattleforAzeroth/ImageHosting/posts/about.2.png#pic_center&#34; alt=&#34;&#34; title=&#34;项目流程图&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;基于改进yolov5的垃圾智能识别与分类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基于改进yolov5的垃圾智能识别与分类&#34;&gt;#&lt;/a&gt; 基于改进 YOLOv5 的垃圾智能识别与分类&lt;/h2&gt;
-&lt;div class=&#34;note default no-icon&#34;&gt;
+&lt;div class=&#34;note primary no-icon&#34;&gt;
 &lt;p&gt;角色：负责人，独自完成；时间：2023.01~2023.04&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;在目标检测中，为提升模型的平均精度均值（mAP），在 YOLOv5 模型上提出了采用 SIoU 损失函数、将主干网络替换为 EfficientNet-B0、解耦头这三种改进策略，mAP@0.5 由 93% 提升到了 96.2%。进行了详细的消融实验，每增加一个改进点提升 0.7~1.5 个 mAP。还对不同规模的 YOLOv5 模型实施改进（B0 改进 YOLOv5s、B1 改进 YOLOv5m），绘制系列改进模型与原模型的 mAP - 参数量（或延迟时间）折线图，说明改进模型的性价比更高：在同规模模型对比中，改进算法效果更优；在具有相同 mAP 的两个模型里，改进算法的延迟时间更短。&lt;/p&gt;
@@ -150,7 +161,7 @@
 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/BattleforAzeroth/ImageHosting/posts/about.1.png#pic_center&#34; alt=&#34;&#34; title=&#34;改进前后模型mAP-参数量&#34; width=&#34;600px&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ai-canteen食堂菜品智能识别系统&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ai-canteen食堂菜品智能识别系统&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0JhdHRsZWZvckF6ZXJvdGgvQUlDYW50ZWVuL3RyZWUvbWFzdGVy&#34;&gt;AI Canteen（食堂菜品智能识别系统）&lt;/span&gt;&lt;/h2&gt;
-&lt;div class=&#34;note default no-icon&#34;&gt;
+&lt;div class=&#34;note success no-icon&#34;&gt;
 &lt;p&gt;角色：负责人，独自完成；时间：2022.07~2022.08&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;开发的安卓平台软件 AI Canteen 食堂菜品智能识别系统，基于 YOLOv7 目标检测技术实现了传统点单方式的智能化。将训练好的 YOLOv7 模型部署在 Android 端，基于 ncnn 计算框架实现高效的推理，支持 CPU/GPU 推理以及多摄像头切换，所实现的目标检测算法具有高精度和实时性。系统拥有类似外卖 APP 的二级联动列表界面，将识别结果融入其中，方便用户查看和修改。&lt;br /&gt;
@@ -207,7 +218,7 @@
 热爱开发有趣的项目、撰写博客，同时是 Android “发烧友”（刷机、Magisk），有坚定的开源理念，梦想成为自由代码人&lt;br /&gt;
 求职期间此页面作为个人简历使用，部分内容不够详细，会持续更新&lt;/p&gt;
 </content>
-        <updated>2025-08-22T15:50:19.708Z</updated>
+        <updated>2025-08-26T03:30:00.526Z</updated>
     </entry>
     <entry>
         <id>https://battleforazeroth.github.io/Linux/Arch/Arch%20Linux%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</id>
@@ -742,6 +753,32 @@ z=\dfrac{s}{2}\sin\dfrac{t}{2}
         <updated>2023-08-20T03:41:57.000Z</updated>
     </entry>
     <entry>
+        <id>https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/Magisk%E5%AE%89%E8%A3%85/</id>
+        <title>Magisk安装</title>
+        <link rel="alternate" href="https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/Magisk%E5%AE%89%E8%A3%85/"/>
+        <content type="html">&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;以下为本人安装 Magisk 的记录，手机型号为 &lt;code&gt;Redmi K60 pro&lt;/code&gt; &lt;br /&gt;
+ 持续施工中...&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;安装magisk&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装magisk&#34;&gt;#&lt;/a&gt; 安装 Magisk&lt;/h1&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Magisk&#34; style=&#34;--block-color:#00b09d;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3RvcGpvaG53dS9NYWdpc2s=&#34; data-background-image=&#34;https://cdn.jsdelivr.net/gh/BattleforAzeroth/ImageHosting/icons/Magisk.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3RvcGpvaG53dS9NYWdpc2s=&#34;&gt;Magisk&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;官方Magisk github仓库&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;
+ 前往&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3RvcGpvaG53dS9NYWdpc2svcmVsZWFzZXM=&#34;&gt; Releases 页面&lt;/span&gt;，下载 APK 安装包并安装&lt;/p&gt;
+&lt;h2 id=&#34;修补init_boot&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#修补init_boot&#34;&gt;#&lt;/a&gt; 修补 init_boot&lt;/h2&gt;
+&lt;h3 id=&#34;提取init_boot&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#提取init_boot&#34;&gt;#&lt;/a&gt; 提取 init_boot&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;init_boot.img&lt;/code&gt;  线刷包中可以找到，而卡刷包需要从 &lt;code&gt;payload.bin&lt;/code&gt;  中提取（现在 Magisk 也可以自动使用 &lt;code&gt;payload.bin&lt;/code&gt;  进行修补）&lt;/p&gt;
+&lt;h3 id=&#34;修补init_boot-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#修补init_boot-2&#34;&gt;#&lt;/a&gt; 修补 init_boot&lt;/h3&gt;
+&lt;p&gt;打开 Magisk，选择 Magisk 安装，点击选择并修补一个文件，选择 &lt;code&gt;init_boot.img&lt;/code&gt;  文件，修补完成后直接刷入修补后的 init_boot&lt;br /&gt;
+ 默认修补后文件位置在 &lt;code&gt;Downloads&lt;/code&gt;  文件夹，使用 TWRP 刷入（线刷理论也可）&lt;/p&gt;
+</content>
+        <category term="刷机相关" scheme="https://battleforazeroth.github.io/categories/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/" />
+        <category term="刷机" scheme="https://battleforazeroth.github.io/tags/%E5%88%B7%E6%9C%BA/" />
+        <updated>2023-06-10T11:04:21.000Z</updated>
+    </entry>
+    <entry>
         <id>https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/%E8%A7%A3%E9%94%81%E3%80%81%E5%88%B7%E6%9C%BA%E3%80%81ROOT/</id>
         <title>解锁、刷机、ROOT</title>
         <link rel="alternate" href="https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/%E8%A7%A3%E9%94%81%E3%80%81%E5%88%B7%E6%9C%BA%E3%80%81ROOT/"/>
@@ -772,32 +809,6 @@ z=\dfrac{s}{2}\sin\dfrac{t}{2}
 &lt;h1 id=&#34;root&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#root&#34;&gt;#&lt;/a&gt; ROOT&lt;/h1&gt;
 &lt;p&gt;采用安装 Magisk 的方式获取 ROOT，参考&lt;a href=&#34;/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/Magisk%E5%AE%89%E8%A3%85/&#34;&gt; Magisk 安装&lt;/a&gt;&lt;br /&gt;
  TWRP➡️安装➡️切换到刷入 Image 模式，手动选择修补后的 img 文件➡️选择 Boot 分区刷入&lt;/p&gt;
-</content>
-        <category term="刷机相关" scheme="https://battleforazeroth.github.io/categories/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/" />
-        <category term="刷机" scheme="https://battleforazeroth.github.io/tags/%E5%88%B7%E6%9C%BA/" />
-        <updated>2023-06-10T11:04:21.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/Magisk%E5%AE%89%E8%A3%85/</id>
-        <title>Magisk安装</title>
-        <link rel="alternate" href="https://battleforazeroth.github.io/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/Magisk%E5%AE%89%E8%A3%85/"/>
-        <content type="html">&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;以下为本人安装 Magisk 的记录，手机型号为 &lt;code&gt;Redmi K60 pro&lt;/code&gt; &lt;br /&gt;
- 持续施工中...&lt;/p&gt;
-&lt;/div&gt;
-&lt;h1 id=&#34;安装magisk&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装magisk&#34;&gt;#&lt;/a&gt; 安装 Magisk&lt;/h1&gt;
-&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Magisk&#34; style=&#34;--block-color:#00b09d;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3RvcGpvaG53dS9NYWdpc2s=&#34; data-background-image=&#34;https://cdn.jsdelivr.net/gh/BattleforAzeroth/ImageHosting/icons/Magisk.png&#34;&gt;&lt;/span&gt;
-          &lt;div class=&#34;info&#34;&gt;
-          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3RvcGpvaG53dS9NYWdpc2s=&#34;&gt;Magisk&lt;/span&gt;
-          &lt;p class=&#34;desc&#34;&gt;官方Magisk github仓库&lt;/p&gt;
-          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;
- 前往&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3RvcGpvaG53dS9NYWdpc2svcmVsZWFzZXM=&#34;&gt; Releases 页面&lt;/span&gt;，下载 APK 安装包并安装&lt;/p&gt;
-&lt;h2 id=&#34;修补init_boot&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#修补init_boot&#34;&gt;#&lt;/a&gt; 修补 init_boot&lt;/h2&gt;
-&lt;h3 id=&#34;提取init_boot&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#提取init_boot&#34;&gt;#&lt;/a&gt; 提取 init_boot&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;init_boot.img&lt;/code&gt;  线刷包中可以找到，而卡刷包需要从 &lt;code&gt;payload.bin&lt;/code&gt;  中提取（现在 Magisk 也可以自动使用 &lt;code&gt;payload.bin&lt;/code&gt;  进行修补）&lt;/p&gt;
-&lt;h3 id=&#34;修补init_boot-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#修补init_boot-2&#34;&gt;#&lt;/a&gt; 修补 init_boot&lt;/h3&gt;
-&lt;p&gt;打开 Magisk，选择 Magisk 安装，点击选择并修补一个文件，选择 &lt;code&gt;init_boot.img&lt;/code&gt;  文件，修补完成后直接刷入修补后的 init_boot&lt;br /&gt;
- 默认修补后文件位置在 &lt;code&gt;Downloads&lt;/code&gt;  文件夹，使用 TWRP 刷入（线刷理论也可）&lt;/p&gt;
 </content>
         <category term="刷机相关" scheme="https://battleforazeroth.github.io/categories/%E5%88%B7%E6%9C%BA%E7%9B%B8%E5%85%B3/" />
         <category term="刷机" scheme="https://battleforazeroth.github.io/tags/%E5%88%B7%E6%9C%BA/" />
